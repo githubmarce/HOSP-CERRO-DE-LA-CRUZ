@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triage</title>
+</head>
+<style>
+    body {
+    font-family: 'Arial', sans-serif;
+    background-color: #959899;
+    text-align: center;
+}
+h1 {
+    margin: 20px 0;
+}
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    padding: 15px;
+    border: 3px solid #000000;
+}
+th {
+    background-color: #ffffff;
+    color: rgb(5, 5, 5);
+}
+.red {
+    background-color: #FF0000;
+    color: white;
+}
+.orange {
+    background-color: #ff8800;
+    color: white;
+}
+.yellow {
+    background-color: #fbff02e1;
+    color: black;
+}
+.green {
+    background-color: #008000;
+    color: white;
+}
+.blue {
+    background-color: #0000FF;
+    color: white;
+}
+</style>
+<body>
+    <h1>Clasificación Triage</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>NIVEL DE URGENCIA</th>
+                <th>TIPO DE URGENCIA</th>
+                <th>COLOR</th>
+                <th>TIEMPO DE ESPERA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="red">
+                <td>1</td>
+                <td>Resucitación</td>
+                <td>Rojo</td>
+                <td>Atención de forma inmediata</td>
+            </tr>
+            <tr class="orange">
+                <td>2</td>
+                <td>Emergencia</td>
+                <td >Naranja</td>
+                <td>10 - 15 minutos</td>
+            </tr>
+            <tr class="yellow">
+                <td>3</td>
+                <td>Urgencia</td>
+                <td>Amarillo</td>
+                <td>60 minutos</td>
+            </tr>
+            <tr class="green">
+                <td>4</td>
+                <td>Urgencia menor</td>
+                <td>Verde</td>
+                <td>2 horas</td>
+            </tr>
+            <tr class="blue">
+                <td>5</td>
+                <td>Sin urgencia</td>
+                <td>Azul</td>
+                <td>4 horas</td>
+            </tr>
+        </tbody>
+    </table> 
+</body>
+</html>
